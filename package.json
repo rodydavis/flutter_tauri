@@ -1,0 +1,24 @@
+{
+  "name": "flutter_tauri",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf src-tauri/target",
+    "api:build": "pnpm vite build",
+    "api:dev": "pnpm vite dev",
+    "web:build": "flutter build web",
+    "web:dev": "flutter run -d chrome --web-port=1420",
+    "dev": "pnpm clean && pnpm api:build",
+    "build": "pnpm api:build && pnpm web:build",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.2.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.2.2",
+    "typescript": "^4.8.2",
+    "vite": "^4.1.3"
+  }
+}
