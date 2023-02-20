@@ -8,8 +8,8 @@ This template should help get you started developing with Tauri in Flutter, JS/T
 - [Tauri](https://tauri.studio/en/docs/getting-started/intro)
 - [Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
 - [VS Code](https://code.visualstudio.com/)
+- [Rust](https://www.rust-lang.org/tools/install)
 - [pnpm](https://pnpm.io/installation)
-- [rust](https://www.rust-lang.org/tools/install)
 
 ## Installation
 
