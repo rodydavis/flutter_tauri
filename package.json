@@ -1,0 +1,15 @@
+{
+  "name": "flutter_tauri",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "tauri": "tauri",
+    "prestart": "npm run build:web",
+    "build:web": "flutter build web -o src --pwa-strategy=none",
+    "start": "tauri dev"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": ">=2.0.0"
+  }
+}
